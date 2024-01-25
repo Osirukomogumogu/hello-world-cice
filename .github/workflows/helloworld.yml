@@ -5,4 +5,4 @@ jobs: [push]
     name: Hellow World Job
     runs-on: ubuntu-latest
     steps:
-      run: echo "Hellow World !"
+      - run: echo "Hellow World !"
