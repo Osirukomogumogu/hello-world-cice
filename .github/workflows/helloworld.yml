@@ -1,6 +1,8 @@
 name: "Hellow World"
 
-jobs: [push]
+on: [push]
+
+jobs:
   sample:
     name: Hellow World Job
     runs-on: ubuntu-latest
